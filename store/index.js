@@ -9,11 +9,11 @@ const createStore = () => {
                     icon: 'mdi-apps',
                     to: "/",
                     title: "Home",
-                    text: "hegeText",
+                    text: "",
                 },
                 {
                     icon: 'mdi-chart-bubble',
-                    to: '/rgbtohex',
+                    to: "rgbtohex",
                     title: 'RGB to HEX',
                     text: "ex. rgb(235, 25, 255) -> #ec19ff",
                 }

@@ -1,7 +1,7 @@
 <template>
     <v-card
         :to="page.to"
-        link="true"
+        link=true
     >
         <v-card-title class="headline">
             {{ page.title }}

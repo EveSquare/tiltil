@@ -30,7 +30,9 @@
       app
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-toolbar-title v-text="title" />
+      <NuxtLink to="/" class="title">
+        <v-toolbar-title v-text="title"/>
+      </NuxtLink>
     </v-app-bar>
     <v-main>
       <v-container>
@@ -45,6 +47,15 @@
     </v-footer>
   </v-app>
 </template>
+
+<style scoped>
+
+.title {
+  text-decoration: none;
+  color: white;
+}
+
+</style>
 
 <script>
 import { mapState } from "vuex";
