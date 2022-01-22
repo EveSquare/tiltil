@@ -16,6 +16,12 @@ const createStore = () => {
                     to: "rgbtohex",
                     title: 'RGB to HEX',
                     text: "ex. rgb(235, 25, 255) -> #ec19ff",
+                },
+                {
+                    icon: 'mdi-chart-bubble',
+                    to: "urlescaper",
+                    title: 'URL escape',
+                    text: "ex. %E3%81%82 -> あ",
                 }
             ]
         }),
